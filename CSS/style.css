@@ -210,16 +210,27 @@ button{
 
 /* HW 19 JS/jQ */
 
-/*.cssChange{
-    font-weight: bold;
-    color: red;
-    font-size: 50px;
-} */
-
 
 @media only screen and (max-width:600px) {
 
     /*header*/ 
+
+    /* changes*/
+    .inline-block-nav{
+        display: none;
+    }
+
+    .hamburger{
+        width: 35px;
+        height: 5px;
+        background-color:#944c50;
+        margin: 6px;
+        position: relative; left: 300px;
+    }
+
+    .logo{
+        position: relative; left: 150px;
+    }
 
     .bubble{
         display: none;
